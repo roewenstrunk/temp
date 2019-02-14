@@ -1,0 +1,64 @@
+/**/
+
+body {
+  font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+}
+
+div.background {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:rgb(162,219,255);
+    background-image: url("../img/SchlossBackground_600.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;/* 170px x 200px */
+
+    background-attachment:fixed;
+    
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    color: #ffffff;
+}
+
+.routes-button {
+  background: none;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: black;
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+  font-family:'Amaranth', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.info-button {
+  background: none;
+  border: 3px solid black;
+  border-radius: 25px;
+  color: black;
+  width: 50px;
+  height: 50px;
+  margin: 20px 7px;
+}
+
+#info-buttons {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#start-logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  width: 250px;
+  height: 100px;  
+  margin: 40px auto 50px;
+}

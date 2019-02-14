@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <script>
+    </script>
+</head>
+<body>
+	
+  <ons-navigator id="navigator" page="start.html"></ons-navigator>
+
+  <ons-template id="start.html">
+    <ons-page id="first-page">
+      <!--<ons-toolbar>
+        <div class="center">Page 1</div>
+      </ons-toolbar>-->
+      <div class="background"></div>
+
+      <div class="content" style="text-align: center">
+        
+        <div id="start-logo"> </div>
+
+        <ons-button id="tutti-button" class="routes-button">Tutti</ons-button>
+        <ons-button id="mezzo-button" class="routes-button">Mezzo</ons-button>
+        <ons-button id="piccolo-button" class="routes-button">Piccolo</ons-button>
+
+        <div id="info-buttons">
+          <ons-button id="info-button" class="info-button"></ons-button>
+          <ons-button id="impressum-button" class="info-button"></ons-button>
+        </div>
+      </div>
+    </ons-page>
+  </ons-template>
+
+</body>
+</html>
